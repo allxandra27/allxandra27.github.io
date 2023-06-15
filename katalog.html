@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/katalog.css">
+    <link rel="stylesheet" href="css/general_js.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" type="text/javascript"></script>
+    <script src="js/google-translate.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html" class="logo logo_d">
+                <img src="img/logo.png" alt="" class="logo_1">
+                <img src="img/logo (1).png" alt="" class="logo_2">
+            </a>
+            <a href="index.html" class="logo logo_t">
+                <img src="img/logo_t2.png" alt="" class="logo_1">
+                <img src="img/logo_t1.png" alt="" class="logo_2">
+            </a>
+            <a href="index.html" class="logo logo_m">
+                <img src="img/logo m1.png" alt="" class="logo_1">
+                <img src="img/logo m2.png" alt="" class="logo_2">
+            </a>
+            <div class="navigation navigation1">
+                <a href="katalog.html" class="catalog hvr-float text active">Каталог</a>
+                <a href="about_Tianaif.html" class="about_customer hvr-float text">Про TianaIf</a>
+                <a href="contacts.html" class="contacts hvr-float text">Контакти</a>
+            </div>
+            <div class="icons icons1">
+                <!-- <select name="new-filter" class="languages filter" id="">
+                    <option value="ua">UA</option>
+                    <option value="en">EN</option>
+                </select> -->
+                <a class="language">
+                    <span class="uk" data-google-lang="uk" alt="uk" id="uk">UA</span>
+                    <span> | </span>
+                    <span class="en" data-google-lang="en" alt="en" id="en">ENG</span>
+                </a>
+                <div class="like"></div>
+                <div class="theme"></div>
+            </div>
+            <div class="burger_in">
+                <div class="navigation">
+                    <a href="katalog.html" class="catalog text active">Каталог</a>
+                    <a href="about_Tianaif.html" class="about_customer text">Про TianaIf</a>
+                    <a href="contacts.html" class="contacts text">Контакти</a>
+                </div>
+                <div class="icons">
+                    <!-- <select name="new-filter" class="languages filter" id="">
+                        <option value="ua">UA</option>
+                        <option value="en">EN</option>
+                    </select> -->
+                    <a class="language">
+                        <span class="uk" data-google-lang="uk" alt="uk" id="uk">UA</span>
+                        <span> | </span>
+                        <span class="en" data-google-lang="en" alt="en" id="en">ENG</span>
+                    </a>
+                    <div class="theme theme_m"></div>
+                </div>
+            </div>
+            <div class="burger"></div>
+        </header>
+
+        <div class="local_main">
+            <div class="pages">
+                <a href="index.html" class="light_a">Головна</a>
+                <img src="img/lit_arrow.png" alt="">
+                <a href="katalog.html" class="text">Каталог</a>
+            </div>
+            <div class="jewelry">
+                <div class="distribution">
+                    <p class="h2 hh">Прикраси</p>
+                    <div class="cat">
+                        <div class="categories">
+                            <p>Категорії</p>
+                            <div class="minus"></div>
+                        </div>
+                        <div class="list text_14">
+                            <div class="list_el">
+                                <input type="checkbox" id="katalog" name="katalog" value="twig" class="checks">
+                                <label for="twig">Гілочки</label>
+                            </div>
+                            <div class="list_el">
+                                <input type="checkbox" id="hoop" name="katalog" value="hoop" class="checks">
+                                <label for="hoop">Обручі</label>
+                            </div>
+                            <div class="list_el">    
+                                <input type="checkbox" id="comb" name="katalog" value="comb" class="checks">
+                                <label for="comb">Гребінці</label>
+                            </div>  
+                            <div class="list_el">   
+                                <input type="checkbox" id="crown" name="katalog" value="crown" class="checks">
+                                <label for="crown">Віночки</label>
+                            </div>
+                            <div class="list_el">     
+                                <input type="checkbox" id="pin" name="katalog" value="pin" class="checks">
+                                <label for="pin">Шпильки</label>
+                            </div>
+                            <div class="list_el">     
+                                <input type="checkbox" id="kit" name="katalog" value="kit" class="checks">
+                                <label for="kit">Комплекти</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reset">скинути фільтр</div>
+                </div>
+                <div class="goods_gen">
+                    <div class="t_r">
+                        <div class="tile"></div>
+                    </div>
+                    <div class="goods">
+                        <div class="article" data-category="kit">
+                            <a href="kit2.html"><img src="img/20230405_163214-01-01-01-01-01.jpeg" alt=""></a>
+                            <a href="kit2.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">900грн</p>
+                                <p class="add_grey">Ніжно-рожевий комплект</p>
+                                <p class="add_grey">20см довжина</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit3.html"><img src="img/20230116_132847-01.jpeg" alt=""></a>
+                            <a href="kit3.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">750грн</p>
+                                <p class="add_grey">Ефектна, акцентна гілочка</p>
+                                <p class="add_grey">16см довжина</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit1.html"><img src="img/20230121_105915-01-01-01.jpeg" alt=""></a>
+                            <a href="kit1.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">950грн</p>
+                                <p class="add_grey">20см довжина</p>
+                                <p class="add_grey">Невагомі сережки та кольє</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="comb">
+                            <a href="comb1.html"><img src="img/20230117_144241-01.jpeg" alt=""></a>
+                            <a href="comb1.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гребінець</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">500грн</p>
+                                <p class="add_grey">Сяючі циркони, кришталь</p>
+                                <p class="add_grey">Металева основа</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="pin">
+                            <a href="pin1.html"><img src="img/1000005615-02.jpeg" alt=""></a>
+                            <a href="pin1.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Шпилька</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">300грн</p>
+                                <p class="add_grey">Ефектна, акцентна шпилька</p>
+                                <p class="add_grey">З листочками вітралі</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="comb">
+                            <a href="comb2.html"><img src="img/1000005777-01.jpeg" alt=""></a>
+                            <a href="comb2.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гребінець</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">630грн</p>
+                                <p class="add_grey">Квітковий гребінець</p>
+                                <p class="add_grey">З листочками вітралі</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit5.html"><img src="img/1000005972-01.jpeg" alt=""></a>
+                            <a href="kit5.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">480грн</p>
+                                <p class="add_grey">Пара ніжних шпильок</p>
+                                <p class="add_grey">Кришталеві намистини</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="crown">
+                            <a href="crown2.html"><img src="img/20220913_165400-01.jpeg" alt=""></a>
+                            <a href="crown2.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Віночок</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">600грн</p>
+                                <p class="add_grey">36см довжина</p>
+                                <p class="add_grey">Сяючі циркони, кришталь</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="twig">
+                            <a href="twig2.html"><img src="img/20221025_150337-01.jpeg" alt=""></a>
+                            <a href="twig2.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Парні гілочки</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">780грн</p>
+                                <p class="add_grey">Ефектні, акцентні гілочки</p>
+                                <p class="add_grey">Кришталеві намистини, циркони</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="comb">
+                            <a href="comb3.html"><img src="img/20221101_130029-01.jpeg" alt=""></a>
+                            <a href="comb3.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гребінці</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">400грн</p>
+                                <p class="cost hh">580грн</p>
+                                <p class="add_grey">11см / 15см довжина</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit6.html"><img src="img/20221110_152706-01-01-01-01.jpeg" alt=""></a>
+                            <a href="kit6.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">600грн</p>
+                                <p class="add_grey">Пара ніжних шпильок</p>
+                                <p class="add_grey">Японські бавовняні перлини</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="comb">
+                            <a href="comb4.html"><img src="img/20230105_133135-02.jpeg" alt=""></a>
+                            <a href="comb4.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гребінець</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">400грн</p>
+                                <p class="add_grey">11-12см довжина плетіння</p>
+                                <p class="add_grey">Сяючі циркони, кришталь</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit7.html"><img src="img/20230206_163856-02.jpeg" alt=""></a>
+                            <a href="kit7.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">1150грн</p>
+                                <p class="add_grey">Пара гілочок + сережки</p>
+                                <p class="add_grey">Кришталеві намистини</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="hoop">
+                            <a href="hoop1.html"><img src="img/20230113_144944-01.jpeg" alt=""></a>
+                            <a href="hoop1.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Обруч</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">650грн</p>
+                                <p class="add_grey">Ефектний, акцентний обруч</p>
+                                <p class="add_grey">Сяючі циркони, шпінелі, кришталь</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="crown">
+                            <a href="crown3.html"><img src="img/20230403_165858-01.jpeg" alt=""></a>
+                            <a href="crown3.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Віночок</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">520грн</p>
+                                <p class="add_grey">Віночок на причастя / весільну зачіску</p>
+                                <p class="add_grey">50см довжина гілочки</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="hoop">
+                            <a href="hoop2.html"><img src="img/20230209_172544-01.jpeg" alt=""></a>
+                            <a href="hoop2.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Обруч</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">500грн</p>
+                                <p class="add_grey">Обшито вручну скляними намистинами</p>
+                                <p class="add_grey">Керамічні перлини, чеський бісер</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit9.html"><img src="img/20230130_110249-01.jpeg" alt=""></a>
+                            <a href="kit9.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">925грн</p>
+                                <p class="add_grey">Перлини — це завжди вишукано</p>
+                                <p class="add_grey">Справжні річкові перлини</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="comb">
+                            <a href="comb5.html"><img src="img/20230131_130849-01.jpeg" alt=""></a>
+                            <a href="comb5.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гребінець</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">875грн</p>
+                                <p class="add_grey">Квітковий гребінчик</p>
+                                <p class="add_grey">З листочками вітралі</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="crown">
+                            <a href="crown1.html"><img src="img/20230202_121135-01.jpeg" alt=""></a>
+                            <a href="crown1.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Віночок</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">450грн</p>
+                                <p class="add_grey">Ефектний, акцентний віночок</p>
+                                <p class="add_grey">36см довжина</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="comb">
+                            <a href="comb6.html"><img src="img/20230214_141718-01-01.jpeg" alt=""></a>
+                            <a href="comb6.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гребінець</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">420грн</p>
+                                <p class="add_grey">Квітковий гребінчик</p>
+                                <p class="add_grey">Металеві листочки</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="hoop">
+                            <a href="hoop3.html"><img src="img/20230220_142501-01.jpeg" alt=""></a>
+                            <a href="hoop3.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Обруч</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">700грн</p>
+                                <p class="add_grey">Обруч зі стразами</p>
+                                <p class="add_grey">Практичний, легки, чарівний, сяючий</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="twig">
+                            <a href="twig1.html"><img src="img//20230221_132035-01.jpeg" alt=""></a>
+                            <a href="twig1.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гілочка</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">500грн</p>
+                                <p class="add_grey">Листочки вітралі</p>
+                                <p class="add_grey">Кришталеві намистини, циркони</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="hoop">
+                            <a href="hoop4.html"><img src="img/20230224_155305-01.jpeg" alt=""></a>
+                            <a href="hoop4.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Обруч</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">950грн</p>
+                                <p class="add_grey">Обруч з перлинами</p>
+                                <p class="add_grey">3см ширина</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="twig">
+                            <a href="twig3.html"><img src="img/20230328_190044-03.jpeg" alt=""></a>
+                            <a href="twig3.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гілочка</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">500грн</p>
+                                <p class="add_grey">11см плетіння</p>
+                                <p class="add_grey">Кришталеві намистини, перлини</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="crown">
+                            <a href="crown4.html"><img src="img/20230330_163713-01.jpeg" alt=""></a>
+                            <a href="crown4.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Віночок</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">800грн</p>
+                                <p class="add_grey">35см довжина</p>
+                                <p class="add_grey">Листочки з ювелірної смоли</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="crown">
+                            <a href="crown5.html"><img src="img/20230403_165301-02.jpeg" alt=""></a>
+                            <a href="crown5.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Віночок</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">380грн</p>
+                                <p class="add_grey">Ефектний, акцентний віночок</p>
+                                <p class="add_grey">Елегантна стрічка</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="crown">
+                            <a href="crown6.html"><img src="img/20230403_165523-01.jpeg" alt=""></a>
+                            <a href="crown6.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Віночок</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">600грн</p>
+                                <p class="add_grey">Ефектний, акцентний віночок</p>
+                                <p class="add_grey">Металеві гілочки</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="crown">
+                            <a href="crown7.html"><img src="img/20230406_171139-03-01.jpeg" alt=""></a>
+                            <a href="crown7.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Віночок</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">800грн</p>
+                                <p class="add_grey">Ефектний, квітковий віночок</p>
+                                <p class="add_grey">Листочки з вітралі</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit8.html"><img src="img/20230406_171423-01.jpeg" alt=""></a>
+                            <a href="kit8.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">1550грн</p>
+                                <p class="add_grey">Вишуканий набір з перлин</p>
+                                <p class="add_grey">Намисто 40см + 5см подовжувач</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit10.html"><img src="img/20230407_184933-01.jpeg" alt=""></a>
+                            <a href="kit10.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">700грн</p>
+                                <p class="add_grey">Гілочка + сережки</p>
+                                <p class="add_grey">Листочки зі смоли вітраль</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit11.html"><img src="img/20230407_185626-05.jpeg" alt=""></a>
+                            <a href="kit11.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">450грн</p>
+                                <p class="add_grey">Перлини каплеводневої форми</p>
+                                <p class="add_grey">3 гілочки + пара сережок</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit12.html"><img src="img/20230411_160833-01-01.jpeg" alt=""></a>
+                            <a href="kit12.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">780грн</p>
+                                <p class="add_grey">Підвіска з сяючої шпінелі, циркон</p>
+                                <p class="add_grey">Кришталь та перлини</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit13.html"><img src="img/20230412_113808-01-01-01.jpeg" alt=""></a>
+                            <a href="kit13.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">780грн</p>
+                                <p class="add_grey">Підвіска з сяючої шпінелі, циркон</p>
+                                <p class="add_grey">Кришталь та перлини</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="kit">
+                            <a href="kit4.html"><img src="img/20230325_105720-01-02.jpeg" alt=""></a>
+                            <a href="kit4.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Комплект прикрас</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">950грн</p>
+                                <p class="add_grey">Ефектна, акцентна гілочка</p>
+                                <p class="add_grey">16см довжина</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="hoop">
+                            <a href="hoop5.html"><img src="img/20230227_164943-01.jpeg" alt=""></a>
+                            <a href="hoop5.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Обруч</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">420грн</p>
+                                <p class="add_grey">Обруч з перлинами</p>
+                                <p class="add_grey">Скляні намистини</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="twig">
+                            <a href="twig4.html"><img src="img/20230301_102531-01.jpeg" alt=""></a>
+                            <a href="twig4.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Гілочка</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">500грн</p>
+                                <p class="add_grey">17см довжина плетіння</p>
+                                <p class="add_grey">Перлини, листочки з вітралі</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="pin">
+                            <a href="pin2.html"><img src="img/20230321_150156-01-01.jpeg" alt=""></a>
+                            <a href="pin2.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Шпильки</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">300грн</p>
+                                <p class="add_grey">Кришталь, сяючі циркони</p>
+                                <p class="add_grey">Квіти та листочки з вітралі</p>
+                            </a>
+                        </div>
+                        <div class="article" data-category="hoop">
+                            <a href="hoop6.html"><img src="img/20230327_112836-01.jpeg" alt=""></a>
+                            <a href="hoop6.html" class="grey_bl">
+                                <div class="den_line">
+                                    <p class="denomin hh text_grey">Обруч</p>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="cost hh">360грн</p>
+                                <p class="add_grey">Обруч з перлинами</p>
+                                <p class="add_grey">Скляні намистини, циркони</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="column column_logo">
+                <div class="logo logo_d">
+                    <img src="img/logo_1.png" alt="" class="logo_1">
+                    <img src="img/logo_2.png" alt="" class="logo_2">
+                </div>
+                <div class="logo logo_t">
+                    <img src="img/logo_t2.png" alt="" class="logo_1">
+                    <img src="img/logo_t1.png" alt="" class="logo_2">
+                </div>
+                <div class="logo logo_m">
+                    <img src="img/tiana_if_logo1.png" alt="" class="logo_1">
+                    <img src="img/tiana_if_logo2.png" alt="" class="logo_2">
+                </div>
+                <p class="text text_grey">+380 212 2124</p>
+                <p class="text text_grey">tianaif@gmail.com</p>
+            </div>
+            <div class="column">
+                <p class="text_22 mtext_20">Покупцям</p>
+                <a href="katalog.html" class="text text_grey">Каталог</a>
+                <a href="" class="text text_grey">Як замовити?</a>
+            </div>
+            <div class="column">
+                <p class="text_22 mtext_20">Оплата та доставка</p>
+                <a href="" class="text text_grey">Способи оплати</a>
+                <a href="" class="text text_grey">Час доставки</a>
+            </div>
+        </footer>
+        <button class="up-button dn" type="button">
+          <img src="img/arrow-up.png" alt="" class="arrow_up">
+        </button>
+    </div>
+
+    <div>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/katalog.js"></script>
+    <script src="js/up-button.js"></script>
+</body>
+</html>
