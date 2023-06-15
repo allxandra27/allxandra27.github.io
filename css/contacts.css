@@ -1,0 +1,296 @@
+.text_16{
+    font-size: 16px;
+}
+
+.local_main{
+    padding: 0 122px;
+    margin-bottom: 60px;
+}
+
+.title_inline{
+    display: flex;
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+.title_inline .line{
+    width: 124px;
+    margin-top: 9px;
+}
+
+.bl_inline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* мої соцмережі */
+
+.my_networks{
+    padding-top: 131px;
+}
+
+.net_t_inl .line{
+    margin-left: 42px;
+}
+
+.net_inl .bl{
+    width: 343px;
+    height: 343px;
+    position: relative;
+}
+
+.net_inl .bl .bl_grey{
+    width: 343px;
+    height: 343px;
+    padding: 0 20px;
+    background-color: #F4F2EFB2;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_icon_dark{
+    display: none;
+}
+
+.net_inl .bl .bl_grey .text_22{
+    margin-top: 42px;
+    margin-bottom: 32px;
+}
+
+.net_inl .bl:first-child .bl_grey .text_22{
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.net_inl .bl .bl_grey .button_net{
+    display: block;
+    margin-top: 28px;
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #444240;
+}
+.net_inl .bl .bl_grey .button_net:hover{
+    background-color: #242322;
+    transition: 0.5s;
+}
+
+/* зворотній зв'язок */
+
+.feedback{
+    margin-top: 101px;
+}
+
+.back_t_inl{
+    justify-content: flex-end;
+}
+
+.back_t_inl .line{
+    margin-right: 42px;
+}
+
+.video{
+    width: 343px;
+    height: 383px;
+    overflow: hidden;
+}
+
+video{
+    width: 100%;
+}
+
+.form{
+    width: 405px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 28px 20px;
+    border: 1px solid black;
+}
+
+.form input{
+    width: 100%;
+    height: 71px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.form .send{
+    width: 100%;
+    height: 71px;
+    font-size: 22px;
+    background-color: #444240;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.form .send:hover{
+    background-color: #242322;
+    transition: 0.5s;
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+    .text_22{
+        font-size: 22px;
+    }
+    
+    .local_main{
+        padding: 0 30px;
+        margin-bottom: 40px;
+    }
+    
+    .title_inline{
+        margin-bottom: 43px;
+    }
+    
+    .title_inline .line{
+        display: none;
+    }
+    
+    .bl_inline{
+        flex-wrap: wrap;
+    }
+    
+    /* мої соцмережі */
+    
+    .my_networks{
+        padding-top: 103px;
+    }
+
+    .net_t_inl{
+        justify-content: center;
+    }
+
+    .bl_inline div{
+        margin: 0 auto;
+        margin-bottom: 43px;
+    }
+    
+    .bl_inline .bl:last-child{
+        margin-bottom: 0;
+    }
+
+    /* зворотній зв'язок */
+    
+    .feedback{
+        margin-top: 60px;
+    }
+    
+    .back_t_inl{
+        justify-content: flex-start;
+        margin-left: 47px;
+    }
+
+    .video_1{
+        display: none;
+    }
+    
+    .video{
+        width: 348px;
+        height: 435px;
+        overflow: hidden;
+    }
+    
+    .form{
+        width: 384px;
+        height: 435px;
+    }
+}
+
+@media (max-width: 600px){
+    .text_22{
+        font-size: 18px;
+    }
+
+    .local_main{
+        padding: 0 24px;
+        margin-bottom: 40px;
+    }
+    
+    .title_inline{
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+    
+    .title_inline .line{
+        display: none;
+    }
+    
+    .bl_inline{
+        flex-wrap: wrap;
+    }
+    
+    /* мої соцмережі */
+    
+    .my_networks{
+        padding-top: 63px;
+    }
+    
+    .net_inl .bl{
+        width: 100%;
+        height: auto;
+        margin-bottom: 33px;
+    }
+
+    .net_inl .bl:last-child{
+        margin: 0;
+    }
+
+    .net_inl .bl .img_net{
+        width: 100%;
+    }
+    
+    .net_inl .bl .bl_grey{
+        width: 100%;
+        height: 99%;
+    }
+    
+    .net_inl .bl .bl_grey .button_net{
+        width: 210px;
+        height: 40px;
+    }
+    
+    /* зворотній зв'язок */
+    
+    .feedback{
+        margin-top: 45px;
+    }
+    
+    .back_t_inl{
+        justify-content: center;
+    }
+    
+    .back_t_inl .line{
+        margin-right: 42px;
+    }
+    
+    .video{
+        display: none;
+    }
+    
+    .form{
+        width: 344px;
+        height: 341px;
+    }
+    
+    .form input{
+        height: 49px;
+        font-size: 16px;
+    }
+    
+    .form .send{
+        height: 49px;
+        font-size: 18px;
+    }
+
+}

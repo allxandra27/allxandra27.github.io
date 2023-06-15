@@ -1,0 +1,416 @@
+.local_main{
+    padding-left: 63px;
+    margin-bottom: 161px;
+}
+
+.jewelry{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 77px;
+}
+
+.distribution{
+   width: 237px; 
+   padding-left: 13px;
+}
+
+.distribution .h2{
+    margin-bottom: 40px;
+}
+
+.cat{
+    width: 230px;
+    padding: 8px 7px 13px 13px;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minus{
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/minus.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.plus{
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/plus.png);
+}
+
+.list{
+    width: 103px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 19px;
+}
+
+.list_el{
+    width: 100%;
+    margin-bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.list_el *{
+    cursor: pointer;
+}
+
+.list input{
+    margin-right: 13px;
+}
+
+.reset{
+    width: 230px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #E7E0CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.reset:hover{
+    background-color: #D4CFC3;
+    transition: 0.6s;
+}
+
+/* goods */
+
+.goods_gen{
+    width: 904px;
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+.goods{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.goods_gen .t_r{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.goods_gen .t_r .tile{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/roster.png);
+    background-size: cover;
+}
+
+.article{
+    display: block;
+    width: 276px;
+    height: 317px;
+    position: relative;
+    margin-top: 37px;
+}
+
+.article img{
+    width: 276px;
+    height: 317px;
+}
+
+.article .grey_bl{
+    width: 276px;
+    height: 317px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.grey_bl:hover{
+    opacity: 1;
+    background-color: #F4F2EFB2;
+    transition: 0.6s;
+}
+
+.article .denomin{
+    margin-bottom: 12px;
+}
+
+.article .line, .article .add_grey{
+    display: none;
+}
+
+.article .cost{
+    color: black;
+}
+
+.article .text_grey{
+    color: #919191;
+}
+
+/* js title */
+
+.goods_gen.rost_goods .tile{
+    background-image: url(../img/tile.png);
+}
+
+.goods_gen.rost_goods .article{
+    width: 100%;
+    display: flex;
+}
+
+.goods_gen.rost_goods .article .grey_bl{
+    width: 100%;
+    height: 100%;
+    position: static;
+    align-items: start;
+    opacity: 1;
+    background-color: #F4F2EFB2;
+    padding-left: 21px;
+}
+.goods_gen.rost_goods .article .grey_bl:hover{
+    background-color: #E7E0CF;
+}
+
+.goods_gen.rost_goods .article .grey_bl .den_line{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.goods_gen.rost_goods .article .grey_bl .denomin{
+    margin: 0;
+    font-size: 40px;
+    color: #1B1A17;
+}
+
+.goods_gen.rost_goods .article .grey_bl .line{
+    display: block;
+    width: 111px;
+    margin-left: 25px;
+}
+
+.goods_gen.rost_goods .article .grey_bl .cost{
+    font-size: 30px;
+    color: #1B1A17;
+    margin-bottom: 14px;
+}
+
+.goods_gen.rost_goods .article .add_grey{
+    display: block;
+    font-size: 24px;
+    color: #555248;
+    margin-top: 20px;
+}
+
+
+
+@media (min-width: 600px) and (max-width: 900px){
+    .local_main{
+        margin-bottom: 81px;
+        padding-left: 27px;
+    }
+
+    .jewelry{
+        margin-top: 27px;
+        padding-right: 30px;
+    }
+
+    .distribution{
+       width: 191px; 
+       padding-left: 13px;
+       padding-top: 13px;
+    }
+    
+    .distribution .h2{
+        display: none;
+    }
+
+    .cat{
+        width: 151px;
+        padding: 8px 7px 13px 13px;
+    }
+    
+    .categories{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .minus, .plus{
+        display: none;
+    }
+    
+    .reset{
+        display: none;
+    }
+
+    /* goods */
+    
+    .goods_gen{
+        width: 590px;
+        margin-top: 24px;
+    }
+
+    .goods{
+        margin: 0;
+    }
+
+    .goods_gen .t_r .tile{
+        width: 15px;
+        height: 15px;
+    }
+
+    .goods_gen.rost_goods .article{
+        height: 200px;
+    }
+
+    .goods_gen.rost_goods .article img{
+        width: 170px;
+        height: 200px;
+    }
+
+    /* js title */
+
+    .goods_gen.rost_goods .article .grey_bl .den_line{
+        margin-bottom: 7px;
+    }
+
+    .goods_gen.rost_goods .article .grey_bl .denomin{
+        font-size: 25px;
+    }
+
+    .goods_gen.rost_goods .article .grey_bl .line{
+        width: 70px;
+        margin-top: 7px;
+    }
+
+    .goods_gen.rost_goods .article .grey_bl .cost{
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .goods_gen.rost_goods .article .add_grey{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 600px){
+    .local_main{
+        margin-bottom: 69px;
+        padding: 0 23px;
+    }
+
+    .pages{
+        display: none;
+    }
+    
+    .jewelry{
+        margin: 0;
+        padding: 0;
+        padding-top: 58px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .distribution{
+        padding: 0;
+        width: 100%; 
+    }
+    
+    .distribution .h2{
+        display: none;
+    }
+    
+    .cat{
+        width: 100%;
+        padding: 0 10px;
+        padding-top: 22px;
+    }
+    
+    .categories{
+        display: none;;
+    }
+    
+    .minus, .plus{
+        display: none;
+    }
+    
+    .list{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .list_el{
+        width: 93px;
+        margin-bottom: 22px;
+    }
+
+    .list input{
+        margin-right: 8px;
+    }
+    
+    .reset{
+        display: none;
+    }
+    
+    /* goods */
+    
+    .goods_gen{
+        margin: 0;
+        width: 100%;
+        margin-top: -30px;
+    }
+
+    .goods_gen .t_r{
+        display: none;
+    }
+    
+    .article{
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 67px;
+    }
+    
+    .article img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .article .grey_bl{
+        width: 100%;
+        height: 99%;
+    }
+    
+    .article .denomin{
+        margin-bottom: 12px;
+    }
+    
+    .article .cost{
+        color: black;
+    }
+}
+
+
+
+

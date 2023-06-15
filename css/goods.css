@@ -1,0 +1,223 @@
+.local_main{
+    padding-left: 63px;
+    margin-bottom: 110px;
+}
+
+.bl_fv_pages img{
+    width: 318px;
+    height: 379px;
+}
+
+
+/* Про товар */
+
+.about_goods{
+    position: relative;
+    margin-top: 82px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.about_goods *{
+    z-index: 1;
+}
+
+.ab_img{
+    width: 440px;
+    height: 548px;
+}
+
+.text_about{
+    margin-left: 73px;
+}
+
+.title_about{
+   display: flex;
+   align-items: center; 
+}
+.title_about .line{
+    width: 111px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+.price{
+    font-size: 30px;
+    margin-bottom: 56px;
+}
+
+.text_about ul{
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.text_about ul .li{
+    margin-bottom: 28px;
+}
+
+.bg_img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+
+
+.fv_pages{
+    margin-top: 123px;
+    padding-right: 63px;
+}
+
+.fv_pages .h2{
+    margin-left: 10px;
+}
+
+.pages_line{
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_fv_pages{
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_fv_pages p{
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.text_fv_pages .line{
+    width: 56px;
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+    .local_main{
+        padding-left: 30px;
+        margin-bottom: 105px;
+    }
+
+
+    .about_goods{
+        margin-top: 47px;
+        padding: 0;
+    }
+
+    .ab_img{
+        width: 313px;
+        height: 377px;
+    }
+
+    .text_about{
+        margin-left: 52px;
+    }
+
+    .title_about .line{
+        width: 79px;
+    }
+
+    .price{
+        font-size: 26px;
+        margin-bottom: 56px;
+    }
+
+    .text_about ul{
+        font-size: 20px;
+    }
+
+    .text_about ul .li{
+        margin-bottom: 23px;
+    }
+
+    .bg_img{
+        display: none;
+    }
+
+
+    .fv_pages{
+        margin-top: 109px;
+        padding-right: 100px;
+        padding-left: 70px;
+    }
+
+    .fv_pages .h2{
+        text-align: center;
+        margin: 0;
+    }
+
+    .bl_fv_pages3{
+        display: none;
+    }
+
+    .pages_line{
+        margin-top: 51px;
+    }
+}
+
+@media (max-width: 600px){
+    .local_main{
+        padding: 0 24px;
+        margin-bottom: 70px;
+    }
+
+    .pages{
+        display: none;
+    }
+
+    
+    /* Про товар */
+
+    .about_goods{
+        margin: 0;
+        padding: 0;
+        padding-top: 75px;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .ab_img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 19px;
+    }
+
+    .text_about{
+        margin: 0;
+    }
+
+    .title_about p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .title_about .line{
+        display: none;
+    }
+
+    .price{
+        font-size: 22px;
+        margin-bottom: 47px;
+        text-align: center;
+    }
+
+    .text_about ul{
+        font-size: 18px;
+    }
+
+    .text_about ul .li{
+        margin-bottom: 18px;
+    }
+    
+    .bg_img{
+        display: none;
+    }
+
+    .fv_pages{
+        display: none;
+    }
+}

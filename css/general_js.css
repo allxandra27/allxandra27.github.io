@@ -1,0 +1,227 @@
+.mg_top{
+    padding-top: 200px;
+}
+
+.dn{
+    display: none !important;
+}
+
+.db{
+    display: block;
+}
+
+.bottom{
+    bottom: -100px;
+    transition: 0.5s;
+}
+
+
+
+/* dark theme */
+
+.container_dark{
+    background-color: #242322;
+}
+
+.container_dark *{
+    color: #F4F2EF;
+}
+
+.container_dark .text{
+    color: #B0AFAF;
+}
+
+.container_dark .line{
+    border-bottom: 1px solid #F4F2EF;
+}
+
+.container_dark .header{
+    background-color: #242322;
+}
+
+.container_dark .header *{
+    color: #F4F2EF;
+}
+
+.container_dark .theme{
+    background-image: url(../img/sun.png);
+}
+
+.container_dark .like{
+    background-image: url(../img/like_dark.png);
+}
+
+.container_dark .button:hover, .container_dark .button:focus, .container_dark .button:active, .container_dark .button a:hover {
+    background-color: #C1BEBE;
+    color: #1B1A17;
+    transition: 0.6s;
+}
+
+.container_dark .burger_in{
+    background-color: #242322;
+}
+
+.container_dark .burger{
+    background-image: url(../img/burger3.png);
+}
+
+.container_dark .burger_open{
+    background-image: url(../img/burger4.png);
+}
+
+.container_dark .active{
+    border-bottom: 1px solid #F4F2EF;
+}
+
+
+.container_dark .section{
+    background-color: #393735;
+}
+.container_dark .section:hover, .container_dark .section:focus, .container_dark .section:active{
+    background-color: #595755;
+}
+
+.container_dark .light_inst{
+    display: none;
+}
+.container_dark .dark_inst{
+    display: block;
+}
+
+
+.container_dark .reviews{
+    background-color: #242322;
+}
+.container_dark .slider_r .slick-arrow.slick-prev{
+    background-image: url(../img/arrow_ld.png);
+}
+.container_dark .slider_r .slick-arrow.slick-next{
+    background-image: url(../img/arrow_rd.png);
+}
+
+.container_dark .reviews_t{
+    background-color: #242322;
+}
+.container_dark .slider_rt .slick-arrow.slick-prev{
+    background-image: url(../img/arrow_ld.png);
+}
+.container_dark .slider_rt .slick-arrow.slick-next{
+    background-image: url(../img/arrow_rd.png);
+}
+
+
+/* katalog */
+
+.container_dark .minus{
+    background-image: url(../img/minus-dark.png);
+}
+
+.container_dark .plus{
+    background-image: url(../img/plus-dark.png);
+}
+
+.container_dark .cat{
+    background-color: #393735;
+}
+
+.container_dark input[type="checkbox"]{
+    filter: sepia(100%) brightness(80%) hue-rotate(170deg) saturate(70%) contrast(300%);
+}
+
+.container_dark .reset{
+    background-color: #444240;
+    color: #F4F2EF;
+}
+
+.container_dark .reset:hover{
+    background-color: #676562;
+}
+
+.container_dark .grey_bl:hover{
+    background-color: #686868B2;
+    color: #F4F2EF;
+}
+
+.container_dark .article p{
+    color: #F4F2EF;
+}
+
+
+
+/* js title */
+
+.container_dark .goods_gen .t_r .tile{
+    background-image: url(../img/roster_dark.png);
+}
+
+.container_dark .goods_gen.rost_goods .tile{
+    background-image: url(../img/tile_dark.png);
+}
+
+.container_dark .goods_gen.rost_goods .article .grey_bl{
+    background-color: #686868B2;
+}
+.container_dark .goods_gen.rost_goods .article .grey_bl:hover{
+    background-color: #393735;
+}
+
+.container_dark .goods_gen.rost_goods .article .grey_bl p{
+    color: #F4F2EF;
+}
+
+.container_dark .goods_gen.rost_goods .article .grey_bl .add_grey{
+    color: #EBEBEB;
+}
+
+
+
+
+/* translate */
+
+.container_dark .language span{
+    color: grey;
+}
+
+.container_dark .uk.language__img_active,
+.container_dark .en.language__img_active{
+    color: rgb(255, 255, 255);
+}
+
+/* про автора */
+
+.container_dark .beige{
+    color: #CAA991;
+}
+
+/* контакти */
+
+.container_dark .img_icon_dark{
+    display: block;
+}
+
+.container_dark .img_icon{
+    display: none;
+}
+
+.container_dark .net_inl .bl .bl_grey{
+    background-color: #686868B2;
+}
+.net_inl .bl .bl_grey .button_net:hover{
+    background-color: #C1BEBE;
+    color: #1B1A17;
+}
+
+.container_dark .form{
+    border: 1px solid white;
+}
+
+.container_dark .form input{
+    background-color: #242322;
+    border: 1px solid white;
+    column-gap: white;
+}
+
+.container_dark .form .send:hover{
+    background-color: #C1BEBE;
+    color: #1B1A17;
+}

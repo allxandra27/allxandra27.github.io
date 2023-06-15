@@ -1,0 +1,201 @@
+.beige{
+    color: #CAA991;
+}
+
+/* container */
+
+.local_main{
+    padding: 0 122px;
+    margin-bottom: 175px;
+}
+
+/* про аксесуари */
+
+.about_accesories{
+    padding-top: 175px;
+    text-align: center;
+}
+
+.p_add{
+    padding: 0 10px;
+}
+
+.about_accesories .h2{
+    margin-bottom: 50px;
+}
+
+.about_accesories .text_24{
+    margin-bottom: 22px;
+}
+
+.about_accesories .text_20{
+    margin-bottom: 50px;
+}
+
+/* Засновниця */
+
+.customer{
+    padding: 0 10px;
+}
+
+.customer .h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.line_bl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer img{
+    margin-right: 43px;
+}
+
+.bl_customer .text_24{
+    margin-bottom: 24px;
+    line-height: 33px;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+.bl_customer .li{
+    margin-bottom: 23px;
+}
+
+.bl_customer .p2{
+    margin-top: 55px;
+}
+
+
+@media (min-width: 600px) and (max-width: 900px){
+    .local_main{
+        padding: 0 27px;
+        margin-bottom: 66px;
+    }
+
+    /* про аксесуари */
+    
+    .about_accesories{
+        padding-top: 175px;
+        text-align: center;
+    }
+    
+    .p_add{
+        padding: 0 7px;
+    }
+    
+    .about_accesories .h2{
+        margin-bottom: 20px;
+    }
+    
+    .about_accesories .text_24{
+        margin-bottom: 13px;
+    }
+    
+    .about_accesories .text_20{
+        margin-bottom: 43px;
+    }
+
+    /* Засновниця */
+    
+    .customer{
+        margin-top: 82px;
+        padding: 0 10px;
+    }
+
+    .customer .h2{
+        margin-bottom: 31px;
+    }
+    
+    .customer img{
+        width: 329px;
+        height: 412px;
+        margin-right: 31px;
+    }
+    
+    .bl_customer .text_24{
+        margin-bottom: 18px;
+        line-height: 28px;
+    }
+    
+    .bl_customer .li{
+        margin-bottom: 23px;
+    }
+    
+    .bl_customer .p2{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 600px){
+    .local_main{
+        padding: 0 24px;
+        margin-bottom: 30px;
+    }
+    
+    /* про аксесуари */
+    
+    .about_accesories{
+        padding-top: 90px;
+    }
+    
+    .p_add{
+        padding: 0;
+    }
+    
+    .about_accesories .h2{
+        margin-bottom: 12px;
+    }
+    
+    .about_accesories .text_24{
+        margin-bottom: 15px;
+    }
+    
+    .about_accesories .text_20{
+        margin-bottom: 35px;
+    }
+    
+    /* Засновниця */
+    
+    .customer{
+        margin-top: 44px;
+        padding: 0 10px;
+    }
+    
+    .customer .h2{
+        margin-bottom: 21px;
+    }
+    
+    .line_bl{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .customer img{
+        margin: 0;
+        width: 100%;
+        margin-bottom: 22px;
+    }
+    
+    .bl_customer .text_24{
+        margin-bottom: 22px;
+        line-height: 22px;
+    }
+    
+    ul{
+        margin-left: 15px;
+    }
+    
+    .bl_customer .li{
+        margin-bottom: 14px;
+    }
+    
+    .bl_customer .p2{
+        margin-top: 32px;
+    }
+}
